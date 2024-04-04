@@ -1,4 +1,6 @@
-﻿namespace NationalParkFrontEnd.Models
+﻿using Microsoft.VisualBasic;
+
+namespace NationalPark2._0.Models
 {
     public class NationalPark
     {
@@ -6,7 +8,8 @@
         public string Name { get; set; }
         public string State { get; set; }
         public DateTime Created { get; set; }
-        public DateTime Established { get; set; }
+        public DateTime Established {  get; set; }
         public byte[] Picture { get; set; }
+
     }
 }
